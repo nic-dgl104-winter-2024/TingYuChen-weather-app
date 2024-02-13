@@ -1,6 +1,6 @@
 # TingYuChen-weather-app
 <!--
-*** Reference: https://github.com/othneildrew/Best-README-Template/tree/master
+*** README.md Reference: https://github.com/othneildrew/Best-README-Template/tree/master
 -->
 
 <!-- PROJECT LOGO -->
@@ -17,10 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-- Redesign a new and simple website for an existing small local business: <a href="http://www.comoxvalleylifeline.com/">http://www.comoxvalleylifeline.com/</a>
-- The page layouts are coded mobile-first and adjusted for desktop screens using media queries.
-
-This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.
+This weather app is built using MIT App Inventor, utilizing the OpenWeather API for real-time weather updates. With an intuitive interface, users can easily access detailed weather information, including temperature, humidity, and wind speed. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,18 +51,20 @@ This is a fictional website that was designed and coded as an educational exerci
 - multiple-language support 
   - English
   - Traditional Chinese
-  [![Product Name Screen Shot][landing-screen.-screenshot]](https://example.com)
+  [![Product Name Screen Shot][landing-screen.-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/landing-screen-screenshot.jpg)
 
-[![Product Name Screen Shot][mutiple-lanaguage-screen-screenshot]](https://example.com)
+[![Product Name Screen Shot][mutiple-lanaguage-screen-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/mutiple-lanaguage-screen-screenshot.jpg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Three Hour Screen
 - Displaying the weather temperature, time and weather icon for the next 15 hours with data every 3 hours
 <br/>
-[![Product Name Screen Shot][three-hour-screen-screenshot]](https://example.com)
+
+[![Product Name Screen Shot][three-hour-screen-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/three-hour-screen-screenshot.jpg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Code block Snapshots
 
 <div align="left">
@@ -88,7 +87,7 @@ This is a fictional website that was designed and coded as an educational exerci
 ### development process
 The most challenging aspect while building the app is that, unlike web coding, using MIT App Inventor to handle data structures or sort data to fit the required data structure for MIT App can be quite tricky. We cannot print out logs to visualize the data structure, and the method to retrieve a JSON array is different from web development as well. Furthermore, when dealing with the UI, I need to use horizontal/vertical layout as alternative options to padding, requiring careful consideration for a readable layout.
 
-### code review
+## code review
 Since data from the API needs to be sorted, after reviewing the code, it is advisable to use procedures to ensure that my blocks are not repeated
 
 <!-- ACKNOWLEDGMENTS -->
