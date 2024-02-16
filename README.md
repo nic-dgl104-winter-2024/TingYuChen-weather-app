@@ -21,8 +21,11 @@ This weather app is built using MIT App Inventor, utilizing the OpenWeather API 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Features of the app
+### Main Screens of the app
   <ol>
+    <li>
+     Login Screen
+    </li>
     <li>
      Landing Screen
     </li>
@@ -45,13 +48,24 @@ This weather app is built using MIT App Inventor, utilizing the OpenWeather API 
   </ol>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Login Screen
+
+- Field required validation
+- Password visibility 
+
+![Product Name Screen Shot][login-screen-screenshot]
+
 ### Landing Screen
-- automatically detect location
-- load current weather data base on current location
-- multiple-language support 
+
+- Automatically detect location
+- Load current weather data base on current location
+- Load different background image based on time
+- Multiple-language support 
   - English
   - Traditional Chinese
-  [![Product Name Screen Shot][landing-screen.-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/landing-screen-screenshot.jpg)
+  - Japanese
+  - Thai
+  - [![Product Name Screen Shot][landing-screen-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/landing-screen-screenshot.jpg)
 
 [![Product Name Screen Shot][mutiple-lanaguage-screen-screenshot]](https://github.com/nic-dgl104-winter-2024/TingYuChen-weather-app/blob/main/assets/mutiple-lanaguage-screen-screenshot.jpg)
 
@@ -79,8 +93,10 @@ This weather app is built using MIT App Inventor, utilizing the OpenWeather API 
 <div align="left">
    - <img src="assets/mit-logo.png" alt="Logo" width="180">
 </div>
-- UI Reference 
-  <a href="https://www.youtube.com/watch?v=48YwaTiYau0">https://www.youtube.com/watch?v=48YwaTiYau0</a>
+- UI Reference :
+  Weather App UI Design in Figma - Full course - https://www.youtube.com/watch?v=48YwaTiYau0
+- Translation Reference:
+  ChatGPT -  https://chat.openai.com/
 
 
 ## Summary details
@@ -103,7 +119,8 @@ The resources I use for this project and would like to give credit to.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[landing-screen.-screenshot]: assets/landing-screen.jpg
+[login-screen-screenshot]: assets/login-screen.jpg
+[landing-screen-screenshot]: assets/landing-screen.jpg
 [mutiple-lanaguage-screen-screenshot]: assets/mutiple-lanaguage-screen.jpg
 [three-hour-screen-screenshot]: assets/three-hour-weather-screen.jpg
 
